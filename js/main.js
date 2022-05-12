@@ -36,6 +36,7 @@ function clickAzul(e){
      colorear('azul','Blue');  
      e.preventDefault();
 }
+
 init();
 
 
