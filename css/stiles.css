@@ -1,20 +1,21 @@
 body .fondo{
-    background: white;
+    background: #979A9A;
 }
 .formulario{
    width: 50%;
    margin: auto;
    display: flex;
   flex-direction: column;
-  border-radius:10px;
+
   margin-top: 100px;
+ 
 }
 .formulario div{
    background: black;
    color :white;
    padding: 18px;
    letter-spacing: 2px;
-  
+ 
 }
 .formulario form{
   
@@ -22,6 +23,8 @@ body .fondo{
    justify-content: center;
    background: #252525;
    padding: 20px;
+   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+   border-radius:0 0 10px 10px;
    
 
 }
@@ -55,4 +58,7 @@ body .fondo{
    letter-spacing: 2px;
    margin: 0;
    margin-top: 100px;
+}
+img{
+    width: 30%;
 }
