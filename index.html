@@ -8,66 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
     <title>Mi Aplicacion en JS</title>
-<style>
-      body .fondo{
-          background: white;
-      }
-     .formulario{
-         width: 50%;
-         margin: auto;
-         display: flex;
-        flex-direction: column;
-        border-radius:10px;
-        margin-top: 100px;
-     }
-     .formulario div{
-         background: black;
-         color :white;
-         padding: 18px;
-         letter-spacing: 2px;
-        
-     }
-     .formulario form{
-        
-         display: flex;
-         justify-content: center;
-         background: #252525;
-         padding: 20px;
-         
 
-     }
-     .formulario button{
-         margin-left: 20px;
-         width: 100px;
-         border-radius: 10px ;
-         padding: 10px;
-         
-     }
-     .verde{
-       background:  #2ECC71 ;
-       color:white;
-       cursor: pointer;
-       
-     }
-     .red{
-       background: #E74C3C;
-       color:white;
-       cursor: pointer;
-     }
-     .azul{
-       background: #3498DB ;
-       color:white;
-       cursor: pointer;
-     }
-     .formulario h2{
-         font-size: 250px;
-         text-align: center;
-         font-family: 'Lobster', cursive;
-         letter-spacing: 2px;
-         margin: 0;
-         margin-top: 100px;
-     }
-</style>
 </head>
 <body class="fondo">
    <div class="container">
@@ -85,34 +26,6 @@
             
         </div>
    </div>
-    
-<script>
-    
-     var btn_red=document.getElementById("btn-red");
-     var btn_azul=document.getElementById("btn-azul");
-     var btn_verde=document.getElementById("btn-verde");
-     var color=document.getElementById('color');
-     btn_red.addEventListener('click',function(e){
-    
-        document.body.className="red";
-        color.innerHTML="Red";
-        e.preventDefault();
-    
-     });
-     btn_azul.addEventListener('click',function(e){
    
-          document.body.className="azul"
-          color.innerHTML="Blue";
-          e.preventDefault();
-    
-     });
-     btn_verde.addEventListener('click',function(e){
-        
-           document.body.className="verde";
-           color.innerHTML="Green";
-           e.preventDefault();
-    
-     });
-</script>
 </body>
 </html>
